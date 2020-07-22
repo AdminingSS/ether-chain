@@ -326,12 +326,14 @@ a {
 }
 
 .panel-info {
-  background: url("../images/bg-info.png") no-repeat;
+  //background: url("../images/bg-info.png") no-repeat;
+  background: url("../images/ststistics_.svg") no-repeat;
   -webkit-background-size: 100% 100%;
   background-size: 100% 100%;
 
   //padding: 50px 65px 65px 75px;
-  padding: 30px 60px 45px 75px;
+  //padding: 30px 60px 45px 75px;
+  padding: 35px 60px 45px 85px;
   margin: 0 auto 100px;
 
   text-align: left;
@@ -551,6 +553,10 @@ a {
   //  }
   //}
 
+  .panel-info {
+    padding: 35px 60px 45px 75px;
+  }
+
   .panel-info-item {
     font-size: 12px;
   }
@@ -691,7 +697,8 @@ a {
     margin-bottom: 40px;
     //padding: 40px 40px 40px 50px;
 
-    padding: 30px 30px 30px 40px;
+    //padding: 30px 30px 30px 40px;
+    padding: 30px 45px 30px 45px;
   }
 
   .panel-info:last-child {
@@ -791,7 +798,8 @@ a {
   .panel-info {
     margin-bottom: 40px;
     //padding: 40px 40px 40px 50px;
-    padding: 30px;
+    //padding: 30px;
+    padding: 40px 35px 40px 12%;
   }
 
   .panel-info-item {
